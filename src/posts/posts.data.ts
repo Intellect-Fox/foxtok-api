@@ -12,7 +12,7 @@ export const posts: Post[] = [
   {
     id: uuidv4(),
     avatar:
-      'https://res.cloudinary.com/dooohqlhy/image/upload/v1673727453/foxtok/images/nasa_official_ceaq4t.jpg',
+      'https://res.cloudinary.com/intellectfox/image/upload/v1661189222/cdn/foxtok/images/nasa_official.jpg',
     altText: 'Nasa official',
     author: 'nasa_official',
     video:
@@ -21,7 +21,7 @@ export const posts: Post[] = [
   {
     id: uuidv4(),
     avatar:
-      'https://res.cloudinary.com/dooohqlhy/image/upload/v1673727453/foxtok/images/national_geographic_fbsdir.jpg',
+      'https://res.cloudinary.com/intellectfox/image/upload/v1661189222/cdn/foxtok/images/national_geographic.jpg',
     altText: 'National Geographic',
     author: 'national_geographic',
     video:
@@ -30,7 +30,7 @@ export const posts: Post[] = [
   {
     id: uuidv4(),
     avatar:
-      'https://res.cloudinary.com/dooohqlhy/image/upload/v1673727454/foxtok/images/emily_ko_h3vcug.jpg',
+      'https://res.cloudinary.com/intellectfox/image/upload/v1661189222/cdn/foxtok/images/emily_ko.jpg',
     altText: 'Emily Ko',
     author: 'emily_ko',
     video:
@@ -39,7 +39,7 @@ export const posts: Post[] = [
   {
     id: uuidv4(),
     avatar:
-      'https://res.cloudinary.com/dooohqlhy/image/upload/v1673727453/foxtok/images/happy_family_rri1xs.jpg',
+      'https://res.cloudinary.com/intellectfox/image/upload/v1661189222/cdn/foxtok/images/happy_family.jpg',
     altText: 'Happy family',
     author: 'happy_family',
     video:
