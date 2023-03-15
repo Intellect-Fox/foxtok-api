@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Headers } from '@nestjs/common';
 import { PostsService } from './posts.service';
 import { Post } from './posts.data';
 
@@ -7,7 +7,7 @@ export class PostsController {
   constructor(private readonly postsService: PostsService) {}
 
   @Get()
-  getPosts(): Post[] {
-    return this.postsService.getPosts();
+  getPosts(@Headers() headers): Post[] {
+    return this.postsService.getPosts(headers.authorization);
   }
 }
