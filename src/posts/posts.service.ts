@@ -11,6 +11,6 @@ export class PostsService {
     }
 
     this.authService.validateToken(accessToken);
-    return posts.sort(() => Math.random() - 0.5);
+    return [...posts].sort(() => Math.random() - 0.5);
   }
 }
